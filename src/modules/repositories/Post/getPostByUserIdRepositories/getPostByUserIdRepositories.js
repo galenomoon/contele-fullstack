@@ -16,10 +16,9 @@ const getPostByUserIdRepositories = async ({
         }
     }
 
-    const posts = response.forEach(post => post);
 
     return {
-        posts
+        posts: response
     }
 
 }
