@@ -10,7 +10,7 @@ const port = Number(process.env.PORT || 8089)
 const app = express();
 
 const whitelist = [
-  // TODO whitelist
+  `http://localhost:${port}`
 ]
 
 app.use(cors({
